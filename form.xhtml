@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Customer Details</title>
+	<style>
+		body
+		{
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		
+		input[type=text], select {
+  			width: 80%;
+  			padding: 12px 20px;
+  			margin: 8px 0;
+  			display: inline-block;
+  			border: 1px solid;
+  			border-radius: 4px;
+  			box-sizing: border-box;
+		}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #FFA500;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=checkbox]
+{
+	width:35%;
+	padding:12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border:1px solid;
+	border-radius: 4px;
+	box-sizing:border-box;
+}
+input[type=submit]:hover {
+  background-color: #ff8300;
+
+}
+
+div {
+	height:50%;
+	width:50%;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+	<img src="online.jpg" height="350px" width="1300px"/>
+	<h2>Please enter the required information to make your order</h2>
+	<hr/>
+	<h2><a href="product.xhtml" style="text-decoration:none;color:black;">Or you could <span style="color:red;">click here</span> to choose another product</a></h2><hr/>
+	<div>
+	<form action="final.xhtml">
+		Name:<br/>
+		<input type="text" placeholder="Your name....." /><br/>
+		Address:<br/>
+		<input type="text" placeholder="Address to be delivered to...."/><br/>
+		Contact No:<br/>
+		<input type="text" placeholder="Mobile number"/><br/>
+		No. of units:<br/>
+		<select>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+		</select><br/>
+		<input type="submit" value="Make an order"/>
+	</form>
+</div>
+
+</body>
+</html>
+
+
